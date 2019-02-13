@@ -9,7 +9,7 @@ public class LoginPage {
 	//store all locators in this page 
 	//example of Constructor- this will helps to initialize the WebDriver
 	//it has same name with class, and no data type 
-	//in side of Constructor, I will pass webdriver is reference 
+	//in side of Constructor, I will pass webdriver's reference 
 	//otherwise, it will not identify drivers
 	public LoginPage(WebDriver ldriver) 
 	{
