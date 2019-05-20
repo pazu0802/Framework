@@ -1,103 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
-    <line>
-      <![CDATA[Setting up reports and Test is getting ready]]>
-    </line>
-    <line>
-      <![CDATA[Setting Done- Test can be started ]]>
-    </line>
-    <line>
-      <![CDATA[Trying to start Browser and application getting ready ]]>
-    </line>
-    <line>
-      <![CDATA[Browser and application is up and running ]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end ]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed >>> Reports generated]]>
-    </line>
-    <line>
-      <![CDATA[Test is about to end ]]>
-    </line>
-    <line>
-      <![CDATA[Test Completed >>> Reports generated]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="8529" started-at="2019-02-12T21:07:30Z" finished-at="2019-02-12T21:07:38Z">
+  <suite name="Default suite" duration-ms="14946" started-at="2019-03-16T14:33:39Z" finished-at="2019-03-16T14:33:54Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8529" started-at="2019-02-12T21:07:30Z" finished-at="2019-02-12T21:07:38Z">
-      <class name="com.learnautomation.testcases.LoginTestCRM">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="setUpSuite" is-config="true" duration-ms="733" started-at="2019-02-12T16:07:29Z" finished-at="2019-02-12T16:07:30Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Setting up reports and Test is getting ready]]>
-            </line>
-            <line>
-              <![CDATA[Setting Done- Test can be started ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="setup" is-config="true" duration-ms="4555" started-at="2019-02-12T16:07:30Z" finished-at="2019-02-12T16:07:34Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Trying to start Browser and application getting ready ]]>
-            </line>
-            <line>
-              <![CDATA[Browser and application is up and running ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="loginApp" duration-ms="2549" started-at="2019-02-12T16:07:34Z" finished-at="2019-02-12T16:07:37Z">
+    <test name="Default test" duration-ms="14946" started-at="2019-03-16T14:33:39Z" finished-at="2019-03-16T14:33:54Z">
+      <class name="com.datadriven.tests.gmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="setUp" is-config="true" duration-ms="5530" started-at="2019-03-16T10:33:40Z" finished-at="2019-03-16T10:33:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="tearDownMethod" is-config="true" duration-ms="876" started-at="2019-02-12T16:07:37Z" finished-at="2019-02-12T16:07:38Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="gmailRegistrationTest" duration-ms="882" started-at="2019-03-16T10:33:45Z" data-provider="getTestData" finished-at="2019-03-16T10:33:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestCRM.loginApp()[pri:1, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8] output={null}]]]>
+                <![CDATA[Sami]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ssam]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Test is about to end ]]>
-            </line>
-            <line>
-              <![CDATA[Test Completed >>> Reports generated]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="loginApp1()[pri:2, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="loginApp1" duration-ms="3" started-at="2019-02-12T16:07:38Z" finished-at="2019-02-12T16:07:38Z">
+        </test-method> <!-- gmailRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="tearDown" is-config="true" duration-ms="148" started-at="2019-03-16T10:33:46Z" finished-at="2019-03-16T10:33:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginApp1 -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="tearDownMethod" is-config="true" duration-ms="430" started-at="2019-02-12T16:07:38Z" finished-at="2019-02-12T16:07:38Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="setUp" is-config="true" duration-ms="2895" started-at="2019-03-16T10:33:46Z" finished-at="2019-03-16T10:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="gmailRegistrationTest" duration-ms="918" started-at="2019-03-16T10:33:49Z" data-provider="getTestData" finished-at="2019-03-16T10:33:50Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp1 status=SUCCESS method=LoginTestCRM.loginApp1()[pri:2, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8] output={null}]]]>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tommy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ttomm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2345.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[234.0]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Test is about to end ]]>
-            </line>
-            <line>
-              <![CDATA[Test Completed >>> Reports generated]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.learnautomation.testcases.LoginTestCRM@d8355a8]" name="teardown" is-config="true" duration-ms="93" started-at="2019-02-12T16:07:38Z" finished-at="2019-02-12T16:07:38Z">
+        </test-method> <!-- gmailRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-03-16T10:33:50Z" finished-at="2019-03-16T10:33:50Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.learnautomation.testcases.LoginTestCRM -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="setUp" is-config="true" duration-ms="2716" started-at="2019-03-16T10:33:50Z" finished-at="2019-03-16T10:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="gmailRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="gmailRegistrationTest" duration-ms="907" started-at="2019-03-16T10:33:53Z" data-provider="getTestData" finished-at="2019-03-16T10:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jimmy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jimmm]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3456.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[543.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailRegistrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.datadriven.tests.gmailTest@28d25987]" name="tearDown" is-config="true" duration-ms="91" started-at="2019-03-16T10:33:54Z" finished-at="2019-03-16T10:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.datadriven.tests.gmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

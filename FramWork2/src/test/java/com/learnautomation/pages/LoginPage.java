@@ -32,6 +32,5 @@ public class LoginPage {
 		uname.sendKeys(usernameApplication);
 		pass.sendKeys(passwordApplication);
 		loginBtn.click();
-		
 	}
 }
